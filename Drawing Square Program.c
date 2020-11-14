@@ -59,7 +59,7 @@ for(i=1; i<=outer; i++)
 }
 
 //margin from bottom
-for(k=1; k<margin; k++){
+for(k=1; k<=margin; k++){
 	printf("\n");}
 }
     return 0;
