@@ -12,9 +12,9 @@ Type casting is not required because it is.
 
 // Number of digits
 int counter(char number[15]){
-    int i;
-    for(i=0; number[i]!='\0'; ++i);
-       return i;
+	int i;
+	for(i=0; number[i]!='\0'; ++i);
+        return i;
 }
 
 // Encoding
@@ -115,15 +115,15 @@ int decoding_menu(){
 int main() {
 	printf("*****Encoding / Decoding Program*****\t\t\tBy Gorkem Yelken\n\n\n");
 	printf("Description for Encoding: It takes a number, and for each digit, it should create a new number by for each digit, taking the modulus of that digit by 3 and repeating the value of the digits as many times as the remainder(in addition to the digit itself).\n");
-    printf("\nDescription for Decoding: It takes a number, and create a new number by applying the inverse operation of encoding.\n");
+    	printf("\nDescription for Decoding: It takes a number, and create a new number by applying the inverse operation of encoding.\n");
 	printf("\n1- Type 'e' or 'E' to encode.\n2- Type 'd' or 'D' to decode.\n3- Type 'q' or 'Q' to exit.\n\n");
 	char option;
 	while(1){
 	// Option
-    printf("Option: ");
-    scanf("%s", &option);
-    // If Option = Encoding
-    if(option == 'E' || option == 'e'){
+   	printf("Option: ");
+	scanf("%s", &option);
+	// If Option = Encoding
+        if(option == 'E' || option == 'e'){
     	printf("\n***ENCODING***\n");
     	encoding_menu();
     	break;
