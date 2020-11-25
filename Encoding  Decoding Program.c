@@ -2,12 +2,14 @@
 #include <stdlib.h>
 
 /*
+
 In this program;
 number % 3 = 0 also ASCII(number) % 3 = 0;
 number % 3 = 1 also ASCII(number) % 3 = 1;
 number % 3 = 2 also ASCII(number) % 3 = 2;
 
 Type casting is not required because it is.
+
 */
 
 // Number of digits
