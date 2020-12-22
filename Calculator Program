@@ -72,7 +72,7 @@ int main()
     int k;
     unsigned short flag = 1;   // flag which indicates any error in input
  	unsigned short *flagptr = &flag; // pointer to the above flag
-    printf("*****Calculator Program*****\t\t\tBy Gorkem Yelken. Student ID:172010010032\n\n\n");
+    printf("*****Calculator Program*****\t\t\tBy Gorkem Yelken.\n\n\n");
 	// Descriptions
 	printf("Decription : It will take the characters in the string and do the math operations.\n\n");
 	// The string will be read from user input. The maximum string length is 250.
