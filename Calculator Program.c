@@ -32,7 +32,6 @@ int main() {
 	}
 	
 	printf("\n\n\n");
-	printf("By Gorkem Yelken.\n");
 	
 	return 0;
 }
