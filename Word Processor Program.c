@@ -10,7 +10,6 @@ int counterChar(char str[])
 	}
  	return i;
 }
-
 // Count the number of words in the string
 int counterWord(char str[])
 {
