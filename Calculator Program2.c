@@ -63,7 +63,8 @@ float calculate(float value1f, char operatorr, float value2f, unsigned short *fl
 }
 
 
-int main(){
+int main()
+{
 	char *value1;
     char *value2;
 	float value1f,value2f;
