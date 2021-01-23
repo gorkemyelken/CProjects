@@ -14,7 +14,6 @@ int main() {
 		for(j=0;j<outer_space;j++){
 			printf(" ");
 		}
-		
 		//left edge
 		printf("/");
 		
@@ -22,7 +21,6 @@ int main() {
 		for(j=0;j<inner_space;j++){
 			printf(" ");
 		}
-		
 		//right edge
 		printf("\\");
 		printf("\n");
