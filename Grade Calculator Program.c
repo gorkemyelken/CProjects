@@ -77,6 +77,7 @@ int main()
     }
     return 0;
 }
+
 // to add a new record
 void accept(struct student list[80], int s)
 {
