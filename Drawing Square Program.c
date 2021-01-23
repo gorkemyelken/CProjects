@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main(){
-	
+
+int main(){	
 printf("*****Drawing Square Program*****\t\t\tBy Gorkem Yelken.");
 printf("Description: This program draws a square with a square hole in it.\n\n");
 
