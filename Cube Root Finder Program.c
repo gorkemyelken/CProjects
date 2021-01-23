@@ -1,9 +1,5 @@
 #include <stdio.h>
-/*  
 
-	Görkem Yelken
-
-*/
 
 double cubeRoot(double n) {
 	double i, precision = 0.000001;
